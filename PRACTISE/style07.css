@@ -1,0 +1,13 @@
+.outer{
+	height: 200px;
+	width: 70px;
+	border : 2px double black;
+
+}
+.inner{
+	height: 50px;
+	width: 50px;
+	border: 2px double black;
+	margin: 10px;
+	border-radius: 50%;
+}

@@ -1,0 +1,52 @@
+.box{
+	height: 100px;
+	width: 2	00px;
+	background-color: blue;
+		/* animation-name: widthtran;
+	animation-duration: 4s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+	animation-delay:0 ;
+	animation-direction:alternate ;
+	animation :fontAnimation   4s ease-in 0s infinite normal; */
+
+}
+@keyframes widthtran{
+	from{
+		width: 10px;
+		background-color: green;
+	
+	}
+	to{
+		width: 400px;
+		background-color: red;
+		border-radius: 40px ;
+	}
+}
+@keyframes fontAnimation{
+	from{
+		font-size: 20px;
+	}
+	to{
+		font-size: 40px;
+	}
+}
+@keyframes coloranimated{
+	from{
+		background-color: red;
+	}
+	to{
+		background-color: green;
+	}
+}
+@media(min-width:400px){
+	div{
+		background-color: black;
+	}
+	h1{
+		background-color: black;
+	}
+}
+@media(ro)  {
+	
+}

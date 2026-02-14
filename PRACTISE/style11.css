@@ -1,0 +1,40 @@
+.container{
+	height : 200px;
+	width:  200px ;
+	border: 1px solid black;
+	background-color: antiquewhite;
+	margin: 100px auto;
+}
+.circle{
+	height: 170px;
+	width: 170px ;
+	border-radius: 50%;
+	background-color: rgb(255, 153, 0);
+	margin:18px auto;
+}
+.mouth{
+	height: 20px;
+	width: 80px;
+	background-color: red;
+	margin:0px auto;
+	border-bottom-left-radius:10px ;
+	border-bottom-right-radius:10px ;
+	position: absolute;
+	top: 240px;
+	left: 642px;
+
+}
+.left-eyes,.right-eyes{
+	 background-color: black;
+	 height: 30px;
+	 width: 30px;
+	 border-radius: 50%;
+	 display: inline-block;
+	 position: absolute;
+	 left: 620px;
+	 top: 170px;
+}
+.right-eyes{
+	left: 710px;
+}
+

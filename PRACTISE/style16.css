@@ -1,0 +1,44 @@
+  
+
+  .card{
+	height: 600px ;
+	width: 400px ;
+	border: 2px solid black ;
+	border-radius: 20px;
+	display: inline-block;
+	/* margin-right: 150px; */
+	box-shadow: 2px 2px 10px;
+	margin-left: 40px;
+  }
+ img{
+	height: 300px;
+	width: 380px;
+	border-radius: 20px;
+	padding: 8px;
+	
+ }
+ h3{
+	text-align: center;
+ }
+ span{
+	color: rgb(168, 32, 32);
+ }
+ h2{
+	color: rgb(223, 6, 6);
+ }
+ .container{
+	display: flex;
+	justify-content: space-evenly;
+ }
+ @media(max-width : 375px){
+.container{
+	flex-wrap: wrap;
+}
+}
+h4{
+	text-align: right;
+	font-family: cursive fantasy;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,17 @@
+.box{
+	background-color: red;
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	margin-top: 20px;
+	padding: 2px;
+	border: 2px solid black;
+}
+/* .box:hover{
+	transform: rotate(30deg) scale(2) translate(200px) skew(30deg);
+} */
+ .box{
+	box-shadow: 2px 2px 10px black;
+	background-image: url(Sambaji_maharaj_mudra.jpg);
+	background-size:cover;
+ }
